@@ -31,3 +31,12 @@
     - solaar (For Logitech MX Keys function keys)
         - change Set OS to Mac OS
     - wev (For debugging, just in case)
+
+## Timeshift
+
+``sudo timeshift --list``
+
+Delete a specific snapshot by name (date)
+``sudo timeshift --delete --snapshot '2025-11-28_01-00-00'``
+
+``sudo timeshift --restore``
